@@ -1,11 +1,123 @@
 <!DOCTYPE html>
-<html>
-<header>
-    <title>Hello, git!</title>
-</header>
+<html lang="ru">
+
+<head>
+    <title>Geetings html + css</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Just for fun">
+    <meta name="author" content="Oswald White">
+</head>
 
 <body>
-    <div>There's some foolish text.</div>
-    <div>Add some more text!</div>
+    <div id="header">
+        <div id="header-logo">
+            <img src="smile.png" alt="Красивое лого">
+        </div>
+        <div id="header-text">
+            Заголовок нашего сайта
+        </div>
+        <div id="header-login-form">
+            Здесь мог быть ваш логин
+        </div>
+    </div>
+    <div id="login-form">
+        <form method="GET" action="">
+            <input name="login" value="Текст какой-то">
+            <input type="submit" value="Enter">
+        </form>
+    </div>
+    <div id="body">
+        <div id="navigation-tab">
+            <h5>Меню навигации</h5>
+            <ul>
+                <li>Букварь</li>
+                <li>Машина</li>
+                <li>Стол</li>
+                <li>Колёса</li>
+                <li>Хеликоптер</li>
+            </ul>
+        </div>
+        <div id="body-text">
+            <h4 id="h4-text">
+                Заголовок текста
+            </h4>
+            <p id="p-text">
+                Здесь начинаем описание чего-то важного
+            </p>
+            <p id="p-text">
+                Здесь продолжаем со всем <em>напором</em>
+            </p>
+            <h6 id="h6-text">
+                А между тем стоит обратить внимание
+            </h6>
+            <p id="p-text">
+                Я <mark>пукнул</mark>
+            </p>
+
+            <details>
+                <summary>Штота интересное</summary>
+                <ol>
+                    <li>Лол</li>
+                    <li>Кек</li>
+                    <li>Чебурек</li>
+                    <li>Человек</li>
+                    <li>Не человек</li>
+                </ol>
+            </details>
+
+            <table>
+                <caption>
+                    Таблица пиздатости
+                </caption>
+                <thead>
+                    <th>Имечко</th>
+                    <th>Силушка</th>
+                </thead>
+                <tr>
+                    <td>Чебушка</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <td>Освальд</td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <td>Тимми</td>
+                    <td>180</td>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <th>Инфа от Ветерка 146,7%</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <div id="body-links">
+            <dl>
+                <dt><a href="https://google.com" target="_blanc">Чеб</a></dt>
+                <dd>Красава мужик</dd>
+                <dt><a href="https://google.com" target="_blanc">Освальд</a></dt>
+                <dd>Жёсткий типок</dd>
+                <dt><a href="https://google.com" target="_blanc">Тим</a></dt>
+                <dd>Шутки плохи, осторожно</dd>
+            </dl>
+            <iframe src="http://wikipedia.com" width="400" height="200"></iframe>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footer-link">
+            Здесь ссылка непонятно на что
+        </div>
+        <div id="footer-text">
+            Кратное описание отсутствующих лицензий и тому подобного
+        </div>
+        <div id="footer-other-links">
+            Куча никому не интересных ссылок
+            <a href="#header-text">Поди сюды</a>
+        </div>
+    </div>
+
+    <script src="test.js"></script>
 </body>
+
 </html>
